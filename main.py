@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     menu_items={
         # 'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Emoji': "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app",
+        # 'Emoji': "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app",
         'About': "# This is a header. This is an *extremely* cool app!",
     }
 )
