@@ -12,11 +12,11 @@ st.set_page_config(
     page_icon=":pirate_flag:",
     layout="wide",
     initial_sidebar_state="expanded",
-    # menu_items={
-    #     'Get Help': 'https://www.extremelycoolapp.com/help',
-    #     'Report a bug': "https://www.extremelycoolapp.com/bug",
-    #     'About': "# This is a header. This is an *extremely* cool app!"
-    # }
+    menu_items={
+        # 'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Emoji': "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/",
+        'About': "# This is a header. This is an *extremely* cool app!",
+    }
 )
 
 
