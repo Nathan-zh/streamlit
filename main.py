@@ -12,18 +12,21 @@ st.set_page_config(
     page_icon=":pirate_flag:",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={
-        # 'Get Help': 'https://www.extremelycoolapp.com/help',
-        # 'Emoji': "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app",
-        'About': "# This is a header. This is an *extremely* cool app!",
-    }
+    # menu_items={
+    #     'Get Help': 'https://www.extremelycoolapp.com/help',
+    #     'About': "# This is a header. This is an *extremely* cool app!",
+    # }
 )
 
 
 def welcome():
     st.title(":pirate_flag: Welcome :pirate_flag:")
 
+    url = "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/"
+    st.write("check out this [link](%s) for Emoji" % url)
+
     st.image("https://static.streamlit.io/examples/cat.jpg", width=500)
+
 
 
 
