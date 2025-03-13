@@ -21,7 +21,7 @@ st.set_page_config(
 
 def welcome():
     st.title(":pirate_flag: Welcome :pirate_flag:")
-
+    st.write('new sen')
     url = "https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/"
     st.write("check out this [link](%s) for Emoji" % url)
 
